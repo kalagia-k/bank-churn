@@ -1,0 +1,5 @@
+# Ignore data and system files
+.csv
+.log
+.DS_Store
+Thumbs.db
