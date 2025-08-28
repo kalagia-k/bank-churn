@@ -29,7 +29,7 @@ PRIMARY KEY (customerid)
 
 SET GLOBAL local_infile = 1;
 
-LOAD DATA LOCAL INFILE 'C:/Users/Konstantina Kal/Documents/2. Data Analysis/Bank+Customer+Churn/Bank_Churn.csv'
+LOAD DATA LOCAL INFILE 'C:/path/to/Bank_Churn.csv'
 INTO TABLE bank_churn
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ',' 
